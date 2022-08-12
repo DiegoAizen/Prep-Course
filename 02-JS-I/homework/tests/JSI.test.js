@@ -80,8 +80,8 @@ describe('devolverString(str)', function() {
 
 describe('sumar(x, y)', function() {
   it('Deberia devolver la suma de los dos argumentos', function() {
-    expect(suma(5, 5)).toBe(10);
-    expect(suma(-1, 5)).toBe(4);
+    expect(sumar(5, 5)).toBe(10);
+    expect(sumar(-1, 5)).toBe(4);
   });
 });
 
