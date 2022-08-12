@@ -11,7 +11,7 @@ const {
   sonIguales,
   menosQueNoventa,
   mayorQueCincuenta,
-  sumar,
+  suma,
   resta,
   divide,
   multiplica,
@@ -78,7 +78,7 @@ describe('devolverString(str)', function() {
   });
 });
 
-describe('sumar(x, y)', function() {
+describe('suma(x, y)', function() {
   it('Deberia devolver la suma de los dos argumentos', function() {
     expect(sumar(5, 5)).toBe(10);
     expect(sumar(-1, 5)).toBe(4);
